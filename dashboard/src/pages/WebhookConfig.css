@@ -1,0 +1,133 @@
+.webhook-config {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.webhook-config h2 {
+  margin-bottom: 20px;
+}
+
+.webhook-config form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.secret-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.secret-display span {
+  flex: 1;
+  padding: 12px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.secret-display button {
+  padding: 12px 20px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.secret-display button:hover {
+  background: #5a6268;
+}
+
+button[type="submit"],
+button[data-test-id="test-webhook-button"] {
+  padding: 12px 24px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover,
+button[data-test-id="test-webhook-button"]:hover {
+  background: #0056b3;
+}
+
+.webhook-config h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background: #f8f9fa;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  font-weight: 600;
+  color: #333;
+}
+
+table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+button[data-test-id="retry-webhook-button"] {
+  padding: 6px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[data-test-id="retry-webhook-button"]:hover {
+  background: #218838;
+}
+
+button[data-test-id="retry-webhook-button"]:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

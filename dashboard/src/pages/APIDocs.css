@@ -1,0 +1,38 @@
+.api-docs {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.api-docs h2 {
+  margin-bottom: 30px;
+}
+
+.api-docs section {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.api-docs h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.api-docs pre {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 4px;
+  overflow-x: auto;
+  border: 1px solid #e9ecef;
+}
+
+.api-docs code {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre;
+}
